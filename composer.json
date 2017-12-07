@@ -1,0 +1,40 @@
+{
+	"name": "dmzx/fixednavbars",
+	"type": "phpbb-extension",
+	"description": "This extension will make your header and footer navbars fixed to your board and can be controlled in UCP for members.",
+	"homepage": "http://www.dmzx-web.net",
+	"version": "1.0.4",
+	"time": "2017-12-07",
+	"keywords": [
+		"phpbb",
+		"extension",
+		"fixednavbars"
+	],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "dmzx",
+			"homepage": "http://www.dmzx-web.net",
+			"email": "info@dmzx-web.net",
+			"role": "Extension Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3",
+		"composer/installers": "~1.0"
+	},
+	"require-dev": {
+		"phpbb/epv": "dev-master"
+	},
+	"extra": {
+		"display-name": "Fixed Navbars",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.1.0,<3.3"
+		},
+		"version-check": {
+			"host": "www.dmzx-web.net",
+			"directory": "/versions",
+			"filename": "fixednavbars_version.json"
+		}
+	}
+}

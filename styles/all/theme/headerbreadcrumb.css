@@ -1,0 +1,10 @@
+/* Header breadcrumb */
+.page-header-navbar #nav-breadcrumbs {
+    display: block !important;
+}
+
+@media (max-width: 700px) {
+	.page-header-navbar #nav-breadcrumbs {
+		display: none !important;
+	}
+}

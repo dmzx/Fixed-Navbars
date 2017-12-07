@@ -1,0 +1,48 @@
+/* Resolution adjustments */
+@media (max-width: 1600px) {
+	.page-header-navbar, #page-footer .navbar { 
+		width: 98%;
+	}	
+}
+
+@media (max-width: 1300px) {
+	.page-header-navbar, #page-footer .navbar { 
+		width: 97.5%;
+	}	
+}
+
+@media (max-width: 1000px) {
+	.page-header-navbar, #page-footer .navbar { 
+		width: 96.7%;
+	}	
+}
+
+@media (max-width: 700px) {
+	.page-header-navbar, #page-footer .navbar { 
+		width: 95.2%;
+	}
+	#page-footer {
+		margin-bottom: 35px;
+	}
+}
+
+@media (max-width: 500px) {
+	.page-header-navbar, #page-footer .navbar { 
+		padding: 4px 7px 6px !important;
+	}
+	#page-footer {
+		margin-bottom: 45px;
+	}
+}
+
+@media (max-width: 320px) {
+	.page-header-navbar, #page-footer .navbar { 
+		padding: 4px 4px 6px !important;
+	}
+}
+
+/* Fade in */
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

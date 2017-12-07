@@ -1,0 +1,9 @@
+services:
+    dmzx.fixednavbars.listener:
+        class: dmzx\fixednavbars\event\listener
+        arguments:
+            - '@request'
+            - '@template'
+            - '@user'
+        tags:
+            - { name: event.listener }

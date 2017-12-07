@@ -1,0 +1,12 @@
+{% if S_FIXEDHEADER %}
+	{% INCLUDECSS '@dmzx_fixednavbars/fixedheader.css' %}
+{% endif %}
+{% if S_FIXEDHEADER and S_HEADERBREADCRUMB %}
+	{% INCLUDECSS '@dmzx_fixednavbars/headerbreadcrumb.css' %}
+{% endif %}
+{% if S_FIXEDFOOTER %}
+	{% INCLUDECSS '@dmzx_fixednavbars/fixedfooter.css' %}
+{% endif %}
+{% if S_FIXEDHEADER or S_FIXEDFOOTER %}
+	{% INCLUDECSS '@dmzx_fixednavbars/fixednavbars.css' %}
+{% endif %}

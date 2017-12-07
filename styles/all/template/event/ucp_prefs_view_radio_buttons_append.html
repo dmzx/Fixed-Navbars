@@ -1,0 +1,22 @@
+<hr>
+<dl>
+	<dt><label for="fixedheader1">{{ lang('UCP_ENABLE_FIXEDHEADER') }}{{ lang('COLON') }}</label></dt>
+	<dd>
+		<label for="fixedheader1"><input type="radio" name="fixedheader" id="fixedheader1" value="1"{% if S_UCP_FIXEDHEADER %} checked="checked"{% endif %} /> {{ lang('YES') }}</label>
+		<label for="fixedheader0"><input type="radio" name="fixedheader" id="fixedheader0" value="0"{% if not S_UCP_FIXEDHEADER %} checked="checked"{% endif %} /> {{ lang('NO') }}</label>
+	</dd>
+</dl>
+<dl>
+	<dt><label for="fixedheader1">{{ lang('UCP_ENABLE_HEADERBREADCRUMB') }}{{ lang('COLON') }}</label></dt>
+	<dd>
+		<label for="headerbreadcrumb1"><input type="radio" name="headerbreadcrumb" id="headerbreadcrumb1" value="1"{% if S_UCP_HEADERBREADCRUMB %} checked="checked"{% endif %} /> {{ lang('YES') }}</label>
+		<label for="headerbreadcrumb0"><input type="radio" name="headerbreadcrumb" id="headerbreadcrumb0" value="0"{% if not S_UCP_HEADERBREADCRUMB %} checked="checked"{% endif %} /> {{ lang('NO') }}</label>
+	</dd>
+</dl>
+<dl>
+	<dt><label for="fixedfooter1">{{ lang('UCP_ENABLE_FIXEDFOOTER') }}{{ lang('COLON') }}</label></dt>
+	<dd>
+		<label for="fixedfooter1"><input type="radio" name="fixedfooter" id="fixedfooter1" value="1"{% if S_UCP_FIXEDFOOTER %} checked="checked"{% endif %} /> {{ lang('YES') }}</label>
+		<label for="fixedfooter0"><input type="radio" name="fixedfooter" id="fixedfooter0" value="0"{% if not S_UCP_FIXEDFOOTER %} checked="checked"{% endif %} /> {{ lang('NO') }}</label>
+	</dd>
+</dl>

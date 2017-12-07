@@ -1,0 +1,15 @@
+<script>
+jQuery("document").ready(function($){
+	
+	var nav = $('#page-header .navbar');
+	
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 136) {
+			nav.addClass("page-header-navbar");
+		} else {
+			nav.removeClass("page-header-navbar");
+		}
+	});
+
+});
+</script>
